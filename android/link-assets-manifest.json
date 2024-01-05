@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Europa-Bold.ttf",
+      "sha1": "8f1cd562d28916c230fcb6290545f0bbebbd13ef"
+    },
+    {
+      "path": "assets/fonts/Europa-Light.ttf",
+      "sha1": "47df7c14cd202932540217d3017e8f507191720c"
+    },
+    {
+      "path": "assets/fonts/RiftSoft-Demi.otf",
+      "sha1": "a44e0a95aea606245191d1fa06ce870202080687"
+    },
+    {
+      "path": "assets/fonts/RiftSoft-Medium.otf",
+      "sha1": "72dd9dcba27b9f7ce5c5d528df34113c8340a21e"
+    }
+  ]
+}

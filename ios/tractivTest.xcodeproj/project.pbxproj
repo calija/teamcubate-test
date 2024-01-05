@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-tractivTest-tractivTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-tractivTest-tractivTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0213E2E233F34BEC9899D577 /* RiftSoft-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FA717A70A1C42248636D4B7 /* RiftSoft-Demi.otf */; };
+		850D7BD1A52041F7B0A7379C /* Europa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B59F89D12248D3A7B9EC1F /* Europa-Bold.ttf */; };
+		03C897C268EE4613A676F61A /* Europa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BB5A3595E6249A99C551504 /* Europa-Light.ttf */; };
+		89F7C0B4D69D4EB5A0CCF2E0 /* RiftSoft-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1A1DECBE0AC445AA2A05179 /* RiftSoft-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tractivTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-tractivTest-tractivTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tractivTest-tractivTestTests.release.xcconfig"; path = "Target Support Files/Pods-tractivTest-tractivTestTests/Pods-tractivTest-tractivTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5FA717A70A1C42248636D4B7 /* RiftSoft-Demi.otf */ = {isa = PBXFileReference; name = "RiftSoft-Demi.otf"; path = "../assets/fonts/RiftSoft-Demi.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31B59F89D12248D3A7B9EC1F /* Europa-Bold.ttf */ = {isa = PBXFileReference; name = "Europa-Bold.ttf"; path = "../assets/fonts/Europa-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0BB5A3595E6249A99C551504 /* Europa-Light.ttf */ = {isa = PBXFileReference; name = "Europa-Light.ttf"; path = "../assets/fonts/Europa-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1A1DECBE0AC445AA2A05179 /* RiftSoft-Medium.otf */ = {isa = PBXFileReference; name = "RiftSoft-Medium.otf"; path = "../assets/fonts/RiftSoft-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FAF755783F5D49ADA1202C81 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		FAF755783F5D49ADA1202C81 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5FA717A70A1C42248636D4B7 /* RiftSoft-Demi.otf */,
+				31B59F89D12248D3A7B9EC1F /* Europa-Bold.ttf */,
+				0BB5A3595E6249A99C551504 /* Europa-Light.ttf */,
+				D1A1DECBE0AC445AA2A05179 /* RiftSoft-Medium.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +264,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0213E2E233F34BEC9899D577 /* RiftSoft-Demi.otf in Resources */,
+				850D7BD1A52041F7B0A7379C /* Europa-Bold.ttf in Resources */,
+				03C897C268EE4613A676F61A /* Europa-Light.ttf in Resources */,
+				89F7C0B4D69D4EB5A0CCF2E0 /* RiftSoft-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
